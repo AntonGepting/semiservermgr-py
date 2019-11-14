@@ -1,16 +1,27 @@
 # Semi-Server Managment Tool
 
+
 ## Description
-`semiservermgr` tool is mostly used to control the power status of remote "semi-server" (unusual server wich isn't 24/7 online and works only few hours a day)
+
+`semiservermgr` tool is mostly used to control the power status of remote "semi-server" (unusual server which isn't 24/7 online and works only few hours a day)
+
 
 ## Examples
+
 `semiservermgr wu` - wake up on LAN (using `wakeonlan` program)
+
 `semiservermgr sd` - shutdown (using `shutdown` command)
+
 `semiservermgr re` - reboot (using `reboot` command)
+
 `semiservermgr hi` - turn on the hibrenation mode (using `pm-utils`)
+
 `semiservermgr su` - turn on the suspend mode (using `pm-utils`)
+
 `semiservermgr hy` - turn on the hybrid-suspend mode (using `pm-utils`)
+
 `semiservermgr wu -c config.toml` - wake up on LAN using configuration from
+
 `config.toml` in the current directory
 
 
