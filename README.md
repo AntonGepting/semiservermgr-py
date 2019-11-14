@@ -1,9 +1,11 @@
-# Semi-Server Managment Tool
+# Semi-Server Management Tool
 
 
 ## Description
 
-`semiservermgr` tool is mostly used to control the power status of remote "semi-server" (unusual server which isn't 24/7 online and works only few hours a day)
+`semiservermgr` tool is used to manual control the power status of remote
+"semi-server" (unusual server which isn't 24/7 online and works only few hours
+a day)
 
 
 ## Examples
@@ -76,7 +78,7 @@ mac="00:00:00:00:00:00"
 
     - [`semiservermgr.py`](src/semiservermgr.py) - main program
 
-- [`deb/`](deb/) - Debian package preparing
+- [`deb/`](deb/) - test Debian package
 
     - [`make_package.sh`](deb/make_package.sh) - shell script for making
         deb-package
