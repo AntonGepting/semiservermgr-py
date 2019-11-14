@@ -83,7 +83,7 @@ mac="00:00:00:00:00:00"
     - [`make_package.sh`](deb/make_package.sh) - shell script for making
         deb-package
 
-    - [`bin/`](deb/semiservermgr/usr/local/bin) - Debian package destination
+    - [`semiservermgr/usr/local/bin/`](deb/semiservermgr/usr/local/bin) - Debian package destination
         path
 
     - [`control`](deb/semiservermgr/DEBIAN/control) - Debian package control file
