@@ -44,18 +44,18 @@ apt-get install pm-utils
 apt-get install openssh-client
 ```
 
-3. Install `wakeonlan` program on client
+2. Install `wakeonlan` program on client
 ```
 apt-get install wakeonlan
 ```
 
-4. Install `toml` package on client
+3. Install `toml` package on client
 ```
 pip3 install toml
 pip3 install xdg
 ```
 
-5. Put `config.toml` in the `XDG_CONFIG_HOME/semiservermgr/` directory
+4. Put `config.toml` in the `XDG_CONFIG_HOME/semiservermgr/` directory
    (`/home/user/.config/semiservermgr/`) with following content:
 ```
 [semiservermgr]
@@ -67,7 +67,7 @@ user="root"
 mac="00:00:00:00:00:00"
 ```
 
-6. Use `semiservermgr --help` to see available commands
+5. Use `semiservermgr --help` to see available commands
 
 
 ## Directory Structure
