@@ -16,7 +16,7 @@
 
 ## Target Requirements (Server)
 
-0. Install `openssh-server` on target
+1. Install `openssh-server` on target
 ```
 apt-get install openssh-server
 ```
@@ -45,8 +45,8 @@ pip3 install toml
 pip3 install xdg
 ```
 
-5. Put `config.toml` in your `XDG_CONFIG_HOME/semiservermgr/` directory
-   (`/home/user/.config/semiservermgr/`) with following content
+5. Put `config.toml` in the `XDG_CONFIG_HOME/semiservermgr/` directory
+   (`/home/user/.config/semiservermgr/`) with following content:
 ```
 [semiservermgr]
 # server hostname or ip
@@ -77,5 +77,5 @@ mac="00:00:00:00:00:00"
 
 ## License
 
-tmux_interface is licensed under the MIT license. Please read the license
+semiservermgr is licensed under the MIT license. Please read the license
 file in this repository for more information.
