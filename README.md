@@ -21,7 +21,6 @@
 `semiservermgr hy` - turn on the hybrid-suspend mode (using `pm-utils`)
 
 `semiservermgr wu -c config.toml` - wake up on LAN using configuration from
-
 `config.toml` in the current directory
 
 
